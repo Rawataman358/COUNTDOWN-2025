@@ -42,11 +42,6 @@
             const currentdate = new Date();
             const timediff = targetdate - currentdate;
 
-            // const days = Math.floor(timediff / (1000 * 60 * 60 * 24));
-            // const hours = Math.floor((timediff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            // const minutes = Math.floor((timediff % (1000 * 60 * 60)) / (1000 * 60))
-            // const seconds = Math.floor((timediff % (1000 * 60)) / 1000)
-
 
             const days = Math.floor(timediff / (1000 * 60 * 60 * 24)); // Full days remaining
             const hours = Math.floor((timediff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)); // Remaining hours
